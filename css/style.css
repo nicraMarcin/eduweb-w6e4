@@ -1,0 +1,89 @@
+.player {
+    width: 700px;
+    margin:0 auto;
+    display: block;
+}
+.player video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.player .controls {
+    padding: 5px 125px 5px 55px;
+    height: 40px;
+    overflow: hidden;
+    background-color: rgb(105,105,105);
+    position: relative;
+    color: #000;
+}
+
+.player .leftControls {
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.player .playPause {
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.player .progressBar {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.player .rightControls {
+    width: 90px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.player .time {
+    margin: 0 15px 0 0;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.player .volume {
+    width: 110px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.player .volume:before {
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.player .fullVolume {
+    width: 67px;
+    height: 10px;
+    margin: 10px 0 0 0;
+    float: left;
+    background-color: #818181;
+    position: relative;
+}
+
+.player .currentVolume {
+    width: 0%;
+    height: 100%;
+    background-color: #d3d3d3;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+

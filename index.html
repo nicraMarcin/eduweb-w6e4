@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Zadanie 3</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Compressed CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+</head>
+	<body>
+        <div class="video">
+            <div class="player" id="videoPlayer">
+                <h2>Pierwszy otwarzacz</h2>
+            <video width="100%">
+                <source src="video/Time - 6358.mp4" type="video/mp4" />
+            </video>
+                <div class="controls">
+                    <div class="leftControls">
+                        <div class="playPause fa fa-play"></div>
+                    </div>
+                    <div class="progressBar">
+                        <input type="range" value="0" min="0" max="0" class="range">
+                    </div>
+                    <div class="rightControls">
+                        <div class="time"><span class="currentTime">0:00</span> / <span class="totalTime">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+	<script src="js/scripts.js"></script>
+	</body>
+</html>
